@@ -1,2 +1,2 @@
-FROM gosom/google-maps-scraper:latest
+FROM gosom/google-maps-scraper:latest-rod
 CMD ["-data-folder", "/gmapsdata", "-email", "-addr", ":8080"]
