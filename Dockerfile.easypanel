@@ -1,3 +1,2 @@
 FROM gosom/google-maps-scraper:latest
-ENTRYPOINT ["/usr/local/bin/google-maps-scraper"]
 CMD ["-data-folder", "/gmapsdata", "-email", "-addr", ":8080"]
